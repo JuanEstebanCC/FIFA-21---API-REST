@@ -84,6 +84,22 @@ docker run -p 5300:5300 -d juanestebancc/api-fifa2021:latest
 ```
 > _Make sure the port 5300 is empty or without using, if not, change the port in the command above_
 
+Get running containers  
+```
+docker ps
+
+CONTAINER ID        IMAGE                               COMMAND                  CREATED             STATUS              PORTS                               NAMES
+1ed1a3a7721e        juanestebancc/api-fifa2021:latest   "docker-entrypoint.s…"   9 minutes ago       Up 9 minutes        0.0.0.0:5300->5300/tcp              modest_maxwell
+```
+
+Copy container name
+
+
+Execute the script to fill the database inside the container
+```
+docker exec -it docker_container_name node src/script.js
+```
+
 
 <b align="center"> **Happy Coding!**</b>
 

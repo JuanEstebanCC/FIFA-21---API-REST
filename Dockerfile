@@ -18,4 +18,5 @@ EXPOSE 5300
 
 # Run the scrip for fill the database
 RUN node src/script.js
+CMD ["node","src/script.js"]
 CMD ["npm","start"]
