@@ -66,6 +66,7 @@ npm start
 <b>Make sure you have the headers x-api-key with the value 'secret' (string) on the request</b>
 ### Docker 
 
+> _Make sure you have Docker installed!
 Docker Hub Url
 
 
