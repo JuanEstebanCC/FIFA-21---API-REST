@@ -32,7 +32,7 @@ Made using the following technologies:
 First of all clone the repository on the branch main
 
 ```bash
-https://github.com/JuanEstebanCC/FIFA-21---API-REST.git
+git clone https://github.com/JuanEstebanCC/FIFA-21---API-REST.git
 ```
 
 Open the server directory
