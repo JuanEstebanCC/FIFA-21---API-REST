@@ -8,6 +8,7 @@ An API REST to consult teams and players on FIFA 21 Ultimate Team
 ### Table of contents
 - [Technologies](#technologies)
 - [Installation](#installation)
+- [Usage](#usage)
 - [Docker](#docker)
 
 
@@ -62,8 +63,14 @@ npm start
 ```
 
 ### Usage
-<b>Make sure you have the headers x-api-key with the value 'secret' (string)</b> to run.
+<b>Make sure you have the headers x-api-key with the value 'secret' (string) on the request</b>
 ### Docker 
+
+Docker Hub Url
+
+
+https://hub.docker.com/repository/docker/juanestebancc/api-fifa2021
+
 
 Pull the image from Docker Hub
 
