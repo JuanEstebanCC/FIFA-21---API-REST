@@ -1,4 +1,4 @@
-<h1 align="center">Geek Cosmetics :soccer:</h1>
+<h1 align="center">FIFA ULTIMATE TEAM 21 - API REST:soccer:</h1>
 
 <p align="center"> 
 An API REST to consult teams and players on FIFA 21 Ultimate Team
@@ -17,6 +17,8 @@ Made using the following technologies:
 
 - [Node.js] - evented I/O for the backend
 - [Express] - fast node.js network app framework
+- [Docker] - Accelerate how you build, share and run modern applications 
+- [Mysql] - a relational database
   - > And more...
 
 ### Installation
@@ -76,3 +78,5 @@ docker run -p 5300:5300 -d juanestebancc/api-fifa2021:api-fifa
 
 [node.js]: http://nodejs.org
 [express]: https://expressjs.com/
+[docker]: https://www.docker.com/
+[mysql]: https://www.mysql.com/
