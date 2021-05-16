@@ -23,6 +23,7 @@ Made using the following technologies:
 
 ### Installation
 
+
 <b>FIFA 21 - API REST</b> requires <b>Node.js v10+</b>, and <b>ExpressJS v4+ </b> to run.
 
 > _The following instructions only work locally, for the deployment in the cloud the instructions change_
@@ -59,17 +60,20 @@ Or production mode
 ```
 npm start
 ```
+
+### Usage
+<b>Make sure you have the headers x-api-key with the value 'secret' (string)</b> to run.
 ### Docker 
 
 Pull the image from Docker Hub
 
 ```
-docker pull juanestebancc/api-fifa2021:api-fifa
+docker pull juanestebancc/api-fifa2021:latest
 ```
 
 Start the container 
 ```
-docker run -p 5300:5300 -d juanestebancc/api-fifa2021:api-fifa
+docker run -p 5300:5300 -d juanestebancc/api-fifa2021:latest
 ```
 > _Make sure the port 5300 is empty or without using, if not, change the port in the command above_
 
