@@ -18,7 +18,6 @@ router.post("/team", apiSecurity, async (req, res) => {
       `SELECT DISTINCT * FROM players WHERE UPPER(team) = UPPER(?) AND page = ?`,
       [name, page],
       function (err, results, fields) {
-        console.log(err);
         // Returns the data to the client
         res.json({
           Page: page,
