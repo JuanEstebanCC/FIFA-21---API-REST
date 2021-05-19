@@ -11,7 +11,14 @@ function apiSecurity(req, res, next) {
     });
   }
   // If the header has a not match value with the env secret api code
-  if (token != process.env.API_KEY_SECRET) next();
+  if (token !== process.env.API_KEY_SECRET){
+  return res.status(401).json({
+      auth: false,
+      message: "Invalid token",
+    });
+  }else{
+  next();
+  }
 }
 
 // Export the function
